@@ -32,11 +32,18 @@
                             <outlet property="delegate" destination="1SR-86-2s0" id="d9A-g3-b8l"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TodoBro" id="mH1-OU-1Dh"/>
+                    <navigationItem key="navigationItem" title="TodoBro" id="mH1-OU-1Dh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="whN-ny-efX">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="1SR-86-2s0" id="l8v-L6-2aS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ift-Fd-brz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1751.2" y="25.637181409295355"/>
+            <point key="canvasLocation" x="1513" y="26"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="G57-01-S9t">
